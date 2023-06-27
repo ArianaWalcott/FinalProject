@@ -11,6 +11,10 @@
 		270EBD182A4B203200DF82BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270EBD172A4B203200DF82BD /* ContentView.swift */; };
 		270EBD1A2A4B203500DF82BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 270EBD192A4B203500DF82BD /* Assets.xcassets */; };
 		270EBD1D2A4B203500DF82BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 270EBD1C2A4B203500DF82BD /* Preview Assets.xcassets */; };
+		275023232A4B6195009CD354 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275023222A4B6195009CD354 /* SignIn.swift */; };
+		275023252A4B61A6009CD354 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275023242A4B61A6009CD354 /* SignUp.swift */; };
+		275023272A4B6249009CD354 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275023262A4B6249009CD354 /* Resources.swift */; };
+		275023292A4B6259009CD354 /* Volunteer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275023282A4B6259009CD354 /* Volunteer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		270EBD172A4B203200DF82BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		270EBD192A4B203500DF82BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		270EBD1C2A4B203500DF82BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		275023222A4B6195009CD354 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		275023242A4B61A6009CD354 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		275023262A4B6249009CD354 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		275023282A4B6259009CD354 /* Volunteer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Volunteer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				270EBD152A4B203200DF82BD /* FinalProjectApp.swift */,
 				270EBD172A4B203200DF82BD /* ContentView.swift */,
+				275023222A4B6195009CD354 /* SignIn.swift */,
+				275023242A4B61A6009CD354 /* SignUp.swift */,
+				275023262A4B6249009CD354 /* Resources.swift */,
+				275023282A4B6259009CD354 /* Volunteer.swift */,
 				270EBD192A4B203500DF82BD /* Assets.xcassets */,
 				270EBD1B2A4B203500DF82BD /* Preview Content */,
 			);
@@ -138,6 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				270EBD182A4B203200DF82BD /* ContentView.swift in Sources */,
+				275023252A4B61A6009CD354 /* SignUp.swift in Sources */,
+				275023292A4B6259009CD354 /* Volunteer.swift in Sources */,
+				275023232A4B6195009CD354 /* SignIn.swift in Sources */,
+				275023272A4B6249009CD354 /* Resources.swift in Sources */,
 				270EBD162A4B203200DF82BD /* FinalProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
