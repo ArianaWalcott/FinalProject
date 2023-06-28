@@ -9,12 +9,26 @@ import SwiftUI
 
 struct Launch: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct Launch_Previews: PreviewProvider {
-    static var previews: some View {
-        Launch()
-    }
-}
+     
+        NavigationStack {
+            VStack {
+                NavigationLink(destination: VolFeed()) {
+                    Button("Show Me Volunteer Opprutunites!") {}
+                        .buttonStyle(.borderedProminent)
+                        .tint(.blue)
+                        .padding()
+                }
+                NavigationStack {
+                    VStack {}
+                }
+                NavigationLink(destination: MealFeed()) {
+                    Button("Find Me My Next Meal") {}
+                        .buttonStyle(.borderedProminent)
+                        .padding()
+                    
+                    struct Launch_Previews: PreviewProvider {
+                        static var previews: some View {
+                            Launch()
+                        }
+                    }
+                }
