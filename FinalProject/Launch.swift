@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Launch: View {
     var body: some View {
-     
+        
         NavigationStack {
             VStack {
                 NavigationLink(destination: VolFeed()) {
@@ -32,3 +32,6 @@ struct Launch: View {
                         }
                     }
                 }
+            }
+        }
+    
