@@ -15,6 +15,7 @@
 		275023252A4B61A6009CD354 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275023242A4B61A6009CD354 /* SignUp.swift */; };
 		275023272A4B6249009CD354 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275023262A4B6249009CD354 /* Resources.swift */; };
 		275023292A4B6259009CD354 /* Volunteer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275023282A4B6259009CD354 /* Volunteer.swift */; };
+		2782575A2A4BD643006EEBA1 /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278257592A4BD643006EEBA1 /* Launch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		275023242A4B61A6009CD354 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		275023262A4B6249009CD354 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		275023282A4B6259009CD354 /* Volunteer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Volunteer.swift; sourceTree = "<group>"; };
+		278257592A4BD643006EEBA1 /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				270EBD172A4B203200DF82BD /* ContentView.swift */,
 				275023222A4B6195009CD354 /* SignIn.swift */,
 				275023242A4B61A6009CD354 /* SignUp.swift */,
+				278257592A4BD643006EEBA1 /* Launch.swift */,
 				275023262A4B6249009CD354 /* Resources.swift */,
 				275023282A4B6259009CD354 /* Volunteer.swift */,
 				270EBD192A4B203500DF82BD /* Assets.xcassets */,
@@ -153,6 +156,7 @@
 				275023252A4B61A6009CD354 /* SignUp.swift in Sources */,
 				275023292A4B6259009CD354 /* Volunteer.swift in Sources */,
 				275023232A4B6195009CD354 /* SignIn.swift in Sources */,
+				2782575A2A4BD643006EEBA1 /* Launch.swift in Sources */,
 				275023272A4B6249009CD354 /* Resources.swift in Sources */,
 				270EBD162A4B203200DF82BD /* FinalProjectApp.swift in Sources */,
 			);
