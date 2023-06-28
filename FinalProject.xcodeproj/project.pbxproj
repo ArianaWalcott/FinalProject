@@ -15,7 +15,6 @@
 		275023252A4B61A6009CD354 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275023242A4B61A6009CD354 /* SignUp.swift */; };
 		275023272A4B6249009CD354 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275023262A4B6249009CD354 /* Resources.swift */; };
 		275023292A4B6259009CD354 /* Volunteer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275023282A4B6259009CD354 /* Volunteer.swift */; };
-		2782575A2A4BD643006EEBA1 /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278257592A4BD643006EEBA1 /* Launch.swift */; };
 		278257BC2A4CCC78006EEBA1 /* VolFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278257BB2A4CCC78006EEBA1 /* VolFeed.swift */; };
 		278257BE2A4CCC92006EEBA1 /* MealFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278257BD2A4CCC92006EEBA1 /* MealFeed.swift */; };
 		6EAD163C2A4CD6670076E9ED /* VolunteerOrResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAD163B2A4CD6670076E9ED /* VolunteerOrResources.swift */; };
@@ -31,7 +30,6 @@
 		275023242A4B61A6009CD354 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		275023262A4B6249009CD354 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		275023282A4B6259009CD354 /* Volunteer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Volunteer.swift; sourceTree = "<group>"; };
-		278257592A4BD643006EEBA1 /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
 		278257BB2A4CCC78006EEBA1 /* VolFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolFeed.swift; sourceTree = "<group>"; };
 		278257BD2A4CCC92006EEBA1 /* MealFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealFeed.swift; sourceTree = "<group>"; };
 		6EAD163B2A4CD6670076E9ED /* VolunteerOrResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerOrResources.swift; sourceTree = "<group>"; };
@@ -72,7 +70,6 @@
 				275023222A4B6195009CD354 /* SignIn.swift */,
 				275023242A4B61A6009CD354 /* SignUp.swift */,
 				6EAD163B2A4CD6670076E9ED /* VolunteerOrResources.swift */,
-				278257592A4BD643006EEBA1 /* Launch.swift */,
 				278257BD2A4CCC92006EEBA1 /* MealFeed.swift */,
 				278257BB2A4CCC78006EEBA1 /* VolFeed.swift */,
 				275023262A4B6249009CD354 /* Resources.swift */,
@@ -165,7 +162,6 @@
 				275023252A4B61A6009CD354 /* SignUp.swift in Sources */,
 				275023292A4B6259009CD354 /* Volunteer.swift in Sources */,
 				275023232A4B6195009CD354 /* SignIn.swift in Sources */,
-				2782575A2A4BD643006EEBA1 /* Launch.swift in Sources */,
 				278257BC2A4CCC78006EEBA1 /* VolFeed.swift in Sources */,
 				275023272A4B6249009CD354 /* Resources.swift in Sources */,
 				270EBD162A4B203200DF82BD /* FinalProjectApp.swift in Sources */,

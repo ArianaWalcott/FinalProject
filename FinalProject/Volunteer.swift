@@ -8,24 +8,35 @@
 import SwiftUI
 
 struct Volunteer: View {
+    @State var isPlaying: Bool = false
     var body: some View {
         NavigationStack {
             VStack {
                 
-                NavigationLink(destination: Text("Volunteering Opportunities Near You!") .padding() .color.pink)
-                
-                Spacer()
-                
-                NavigationLink(destination: Text("Affordable Meal Options Near You!") .padding() .color.pink)
-                
-                
+                NavigationLink(destination: VolFeed()) {
+                    Button("Show Me Volunteer Opprutunites!") {}
+                        .buttonStyle(.borderedProminent)
+                        .padding()
+                        .tint(.pink)
+                    
+                    NavigationLink(destination: MealFeed()) {
+                        Button("Show Me Affordable Options Near Me") {}
+                            .buttonStyle(.borderedProminent)
+                            .padding()
+                            .tint(.pink)
+                        
+                    }
                 }
             }
+            
+            struct Volunteer_Previews: PreviewProvider {
+                static var previews: some View {
+                    Volunteer()
+                }
+                
+                
+            }
+        }
     }
 }
 
-struct Volunteer_Previews: PreviewProvider {
-    static var previews: some View {
-        Volunteer()
-    }
-}
