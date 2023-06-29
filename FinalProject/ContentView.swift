@@ -13,8 +13,10 @@ struct ContentView: View {
         NavigationStack {
     ZStack {
        VStack {
-            Image("logo")
-                .imageScale(.small)
+            Image("FindMy")
+               .resizable()
+               .frame(width: 675.0, height: 306.0)
+               .imageScale(.small)
                 NavigationLink(destination: SignUp()) {
                                 Text("Sign Up ")
                             }
