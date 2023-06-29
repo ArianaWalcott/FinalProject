@@ -18,7 +18,7 @@ struct Resources: View {
                         Button("Show Me Volunteer Opprutunites!") {}
                             .buttonStyle(.borderedProminent)
                             .padding()
-                            .tint(.black)
+                            .tint(.cyan)
                     }
                 }
                 
@@ -30,7 +30,7 @@ struct Resources: View {
             Button("Find Me My Next Meal") {}
                 .buttonStyle(.borderedProminent)
                 .padding()
-                .tint(.black)
+                .tint(.cyan)
             
         }
         .navigationTitle("Home")
