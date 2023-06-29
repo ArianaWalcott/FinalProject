@@ -9,7 +9,47 @@ import SwiftUI
 
 struct VolunteerOrResources: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        NavigationStack {
+            ZStack {
+                Image("GreenBack").resizable()
+                    .ignoresSafeArea()
+                
+                VStack {
+                    Text("Volunteering or in need of Resources?")
+                        .font(.title)
+                        .fontWeight(.medium)
+                      
+                        .multilineTextAlignment(.center)
+                        .frame(width: 300, height: 300, alignment: .topLeading)
+                           HStack(spacing:100) {
+                               Text("Volunteer")
+                                   .font(.headline)
+                                   
+                               Text("Resources")
+                                   .font(.headline)
+                           }
+                       HStack(spacing:100) {
+                           NavigationLink(destination: Volunteer()) {
+                               Text("Click Here")
+                                   .foregroundColor(Color.white)
+                                   .padding()
+                                   .background(Color.purple)
+                                   .cornerRadius(15)
+                           }
+                           NavigationLink(destination: Resources()) {
+                               Text("Click Here")
+                                   .foregroundColor(Color.white)
+                                   .padding()
+                                   .background(Color.purple)
+                                   .cornerRadius(15)
+                           }
+                       }
+                }
+            }
+         
+            }
+        
     }
 }
 
