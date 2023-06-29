@@ -29,12 +29,13 @@ struct Volunteer: View {
                     }
                 }
             }
+
+            }
+        }
+    }
 struct Volunteer_Previews: PreviewProvider {
     static var previews: some View {
         Volunteer()
-                    
-                }
-            }
-        }
+        
     }
 }

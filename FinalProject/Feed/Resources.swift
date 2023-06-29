@@ -37,11 +37,13 @@ struct Resources: View {
         .navigationBarTitleDisplayMode(.inline)
         .navigationBarHidden(true)
         
-        struct Resources_Previews: PreviewProvider {
-        static var previews: some View {
-                Resources()
+   
             }
         }
+  
+
+struct Resources_Previews: PreviewProvider {
+    static var previews: some View {
+        Resources()
     }
 }
-
