@@ -10,10 +10,10 @@ import SwiftUI
 struct ViewA: View {
     var body: some View {
         ZStack{
-            Color.red
+            Color.white
             
             Image(systemName: "phone.fill")
-                .foregroundColor(Color.white)
+                .foregroundColor(Color.black)
                 .font(.system(size: 100.0))
         }
     }

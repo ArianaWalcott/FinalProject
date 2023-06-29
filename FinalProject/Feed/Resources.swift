@@ -38,7 +38,7 @@ struct Resources: View {
         .navigationBarHidden(true)
         
         struct Resources_Previews: PreviewProvider {
-            static var previews: some View {
+        static var previews: some View {
                 Resources()
             }
         }
