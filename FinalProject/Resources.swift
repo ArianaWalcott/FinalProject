@@ -8,13 +8,40 @@
 import SwiftUI
 
 struct Resources: View {
+    @State var isPlaying: Bool = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack {}
+            .toolbar {
+                ToolbarItemGroup(placement: .status) {
+                    NavigationLink(destination: VolFeed()) {
+                        Button("Show Me Volunteer Opprutunites!") {}
+                            .buttonStyle(.borderedProminent)
+                            .padding()
+                            .tint(.black)
+                    }
+                }
+                
+            }
+        NavigationStack {
+            VStack {}
+        }
+        NavigationLink(destination: MealFeed()) {
+            Button("Find Me My Next Meal") {}
+                .buttonStyle(.borderedProminent)
+                .padding()
+                .tint(.black)
+            
+        }
+        .navigationTitle("Home")
+        .navigationBarTitleDisplayMode(.inline)
+        .navigationBarHidden(true)
+        
+        struct Resources_Previews: PreviewProvider {
+            static var previews: some View {
+                Resources()
+            }
+        }
     }
 }
 
-struct Resources_Previews: PreviewProvider {
-    static var previews: some View {
-        Resources()
-    }
-}
