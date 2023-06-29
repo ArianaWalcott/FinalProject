@@ -10,11 +10,12 @@ import SwiftUI
 struct Volunteer: View {
     @State var isPlaying: Bool = false
     var body: some View {
+        
         NavigationStack {
             VStack {
                 
                 NavigationLink(destination: VolFeed()) {
-                    Button("Show Me Volunteer Opprutunites!") {}
+                    Button("Show Me Volunteer Opportunites!") {}
                         .buttonStyle(.borderedProminent)
                         .padding()
                         .tint(.pink)
@@ -28,15 +29,12 @@ struct Volunteer: View {
                     }
                 }
             }
-            
-            struct Volunteer_Previews: PreviewProvider {
-                static var previews: some View {
-                    Volunteer()
+struct Volunteer_Previews: PreviewProvider {
+    static var previews: some View {
+        Volunteer()
+                    
                 }
-                
-                
             }
         }
     }
 }
-

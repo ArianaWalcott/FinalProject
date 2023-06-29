@@ -64,6 +64,8 @@ struct SignUp: View {
                     
                     NavigationLink(destination: VolunteerOrResources()) {
                         Text("Next -->")
+                            .font(.title)
+                            .fontWeight(.medium)
                     }
                     
                 }

@@ -32,16 +32,17 @@ struct VolunteerOrResources: View {
                        HStack(spacing:100) {
                            NavigationLink(destination: Volunteer()) {
                                Text("Click Here")
+                                   
                                    .foregroundColor(Color.white)
                                    .padding()
-                                   .background(Color.purple)
+                                   .background(Image("PinkBack"))
                                    .cornerRadius(15)
                            }
                            NavigationLink(destination: Resources()) {
                                Text("Click Here")
                                    .foregroundColor(Color.white)
                                    .padding()
-                                   .background(Color.purple)
+                        .background(Image("BlueBack"))
                                    .cornerRadius(15)
                            }
                        }
