@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
     ZStack {
-        Image("PinkBack").resizable()
+        Image("Back").resizable()
             .ignoresSafeArea()
        VStack {
             Image("FindMy")
