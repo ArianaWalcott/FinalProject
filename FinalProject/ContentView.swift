@@ -12,10 +12,12 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
     ZStack {
+        Image("PinkBack").resizable()
+            .ignoresSafeArea()
        VStack {
             Image("FindMy")
                .resizable()
-               .frame(width: 675.0, height: 306.0)
+               .frame(width: 600, height: 320.0)
                .imageScale(.small)
                 NavigationLink(destination: SignUp()) {
                                 Text("Sign Up ")
