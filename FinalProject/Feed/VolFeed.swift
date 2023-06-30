@@ -12,8 +12,8 @@ struct VolFeed: View {
         TabView {
             ViewA()
                 .tabItem() {
-                    Image(systemName: "phone.fill")
-                    Text("Calls")
+                    Image(systemName: "person.2.fill")
+                    Text("Volunteer")
                         .font(.system(size: 100.0))
                 }
             

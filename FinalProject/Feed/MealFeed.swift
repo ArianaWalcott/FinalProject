@@ -12,8 +12,8 @@ struct MealFeed: View {
         TabView {
             ViewA()
                 .tabItem() {
-                    Image(systemName: "phone.fill")
-                    Text("Calls")
+                    Image(systemName: "fork.knife")
+                    Text("Resources")
                         .font(.system(size: 100.0))
                 }
            

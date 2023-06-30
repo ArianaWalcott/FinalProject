@@ -15,6 +15,8 @@ struct VolunteerOrResources: View {
                 Image("GreenBack").resizable()
                     .ignoresSafeArea()
                 
+                
+                
                 VStack {
                     Text("Volunteering or in need of Resources?")
                         .font(.title)
@@ -45,6 +47,7 @@ struct VolunteerOrResources: View {
                         .background(Image("BlueBack"))
                                    .cornerRadius(15)
                            }
+                           
                        }
                 }
             }
