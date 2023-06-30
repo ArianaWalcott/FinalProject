@@ -63,9 +63,10 @@ struct SignUp: View {
                     Spacer()
                     
                     NavigationLink(destination: VolunteerOrResources()) {
-                        Text("Next -->")
+                        Text("Next")
                             .font(.title)
                             .fontWeight(.medium)
+                        Image(systemName: "arrowshape.right.fill")
                     }
                     
                 }
